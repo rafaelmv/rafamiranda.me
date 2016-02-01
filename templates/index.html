@@ -8,7 +8,15 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- CSS -->
 	<link rel="stylesheet" href="{% static "css/index.css" %}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- CSS -->
+
+
+	<link rel="icon" href="{$ static "img/favicon.ico" %}" type="image/x-icon"/>
+	<link rel="shortcut icon" href="{% static "img/favicon.ico" %}" type="image/x-icon"/>
 </head>
 <body>
 	<header>
@@ -16,9 +24,14 @@
 	</header>
 	<section>
 		<h1>Rafael Miranda Villegas</h1>
+		<article>
+			<a href="https://twitter.com/rafaelyotu"><i class="fa fa-twitter fa-2x twitter"></i></a>
+			<a href="https://github.com/rafaelmv"><i class="fa fa-github fa-2x github"></i></a>
+			<a href="https://medium.com/@rafam"><i class="fa fa-medium fa-2x medium"></i></a>
+		</article>
 	</section>
 	<footer>
-		Made with &#9829;, JavaScript &#38; Django
+		Made with <i class="fa fa-heart"></i>, JavaScript &#38; Django
 	</footer>
 </body>
 </html>

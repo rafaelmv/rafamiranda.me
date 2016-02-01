@@ -8,6 +8,34 @@ section h1 {
 	text-align: center;
 }
 
+section article {
+    text-align: center;
+    margin: 2em 0;
+}
+
+section article a {
+    color: #333;
+    margin-right: 1em;
+}
+
+section article a i {
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s;
+}
+
+section article a .medium:hover {
+    color: #00AB6B;
+}
+
+section article a .twitter:hover {
+    color: #019FE9;
+}
+
+section article a .github:hover {
+    color: #000000;
+}
+
 footer { 
 	text-align: center;
 }
